@@ -13,7 +13,7 @@
 <body>
     @include('partials.nav')
     <div id="login-general">
-    <h1>Crear usuario</h1>
+    <h1>Crear cuenta</h1>
     <form class="form-container">
         <div class="form-group">
             <label for="firstName">Nombre completo o de usuario</label>
@@ -32,6 +32,11 @@
             <input type="tel" id="phone" name="phone" placeholder="Confirmar contraseña">
         </div>
         
+        <div class="form-check">
+            <input type="checkbox" id="scales" class="scales">
+            <label for="">¿Desea crear un perfil de empresa?</label>
+        </div>
+
         <div class="form-actions">
             <button type="submit">Continuar</button>
         </div>

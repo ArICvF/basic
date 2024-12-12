@@ -2,17 +2,18 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../Img/Fondo.jpg') no-repeat;
     background-size: cover;
     font-family: "Poppins", sans-serif;
-    margin-top: 40px;
+    
 } 
 
 #login-general{
     width: 680px; 
-    height: 500px; 
+    height: 460px; 
     text-align: center; 
     margin: auto;  
     background-color: beige;
     border-radius: 2ch;
     padding: 0.5rem;
+    margin-top: 5%;
 }
 
 h1{
@@ -38,6 +39,7 @@ h1{
 
 .form-group label {
     font-weight: bold;
+    font-size: 1em;
     margin-bottom: 5px;
 }
 
@@ -65,6 +67,12 @@ h1{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 3px;
+}
+
+.form-check{
+    margin-top: 20px;
+    margin-left: 150px;
 }
 
 .form-actions button:hover {
