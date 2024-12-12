@@ -12,46 +12,31 @@
 </head>
 <body>
     @include('partials.nav')
-    <div id="register-general">
-        <h1 id="Titulo">Crear cuenta</h1>
-        <form method="POST">
-                @csrf
-                <div id="usuario">
-                    <p>Nombre completo o de usuario</p>
-                    <label for="">
-                        <input id="user" name="user" placeholder="Ingresa tu nombre de usuario" > 
-                    </label>
-                </div>
-                
-                <div id="correo">
-                    <p>Correo electronico</p>
-                    <label for="">
-                        <input id="email" name="email" placeholder="Ingresa tu correo electronico" > 
-                    </label>
-                </div>
-                
-                <div id="password">
-                    <p>Contraseña</p>
-                    <label for="">
-                        <input id="Psw" type="password" name="password" placeholder="Ingrese tu contraseña">
-                    </label>
-                </div>
-                
-                <div id="confirm-password   ">
-                    <p>Confirmar contraseña</p>
-                    <label for="">
-                        <input id="Psw-confirm" type="password" name="password" placeholder="Confirmar tu contraseña">
-                    </label>
-                </div>
-                
-                <br>
-                <a id="link" href="">¿Olvidaste tu contraseña?</a>
-                <br>
-                <button id="boton" type="submit">Iniciar sesion</button>
-
-            </form>
+    <div id="login-general">
+    <h1>Crear usuario</h1>
+    <form class="form-container">
+        <div class="form-group">
+            <label for="firstName">Nombre completo o de usuario</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Ingresa tu nombre de usuario">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Correo electrónico</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Ingresa tu correo electrónico">
+        </div>
+        <div class="form-group">
+            <label for="email">Contraseña</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu contraseña">
+        </div>
+        <div class="form-group">
+            <label for="phone">Confirmar contraseña</label>
+            <input type="tel" id="phone" name="phone" placeholder="Confirmar contraseña">
+        </div>
+        
+        <div class="form-actions">
+            <button type="submit">Continuar</button>
+        </div>
+    </form>
     </div>
-    
 
 </body>
 </html>
