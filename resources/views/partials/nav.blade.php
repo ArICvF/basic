@@ -3,3 +3,4 @@
 <a href="/dashboard">Dasboard</a>
 <a href="#">Logout</a>
 <a href="/register">Registrarse</a>
+<a href="/registerEmpresa">Empresa</a>

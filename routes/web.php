@@ -7,6 +7,7 @@ Route::view('/', 'welcome');
 Route::view('login', 'login');
 Route::view('dashboard', 'dashboard');  
 Route::view('register', 'register');
+Route::view('registerEmpresa', 'registerEmpresa');
 
 Route::post('login', function(){
     $credentials = request()->only('email', 'password');
